@@ -1,0 +1,31 @@
+id,description,impact,likelihood,simple_risk
+1,Offices raids and arrests resulting in major data loss,4.8,3,14.4
+2,Offices raids and arrests resulting in major information disclosure,4.8,3,14.4
+3,Targeted Social engineering attack resulting in major data disclosure,5,3,15
+4,Targeted Social engineering attack resulting in major data loss,4,3,12
+5,Website Defacing,2,2,4
+6,"Random Device theft resulting in limited data loss, limited data disclosure and business disruption",2.5,3,7.5
+7,"Device loss resulting in limited data loss, limited data disclosure and business disruption.",2.5,3,7.5
+8,"Device confiscation resulting in limited data loss, limited data disclosure and business disruption.",5,3,15
+9,Social Engineering attack resulting in ransomware,3,3,9
+10,Hardware failure resulting in data loss,3,3,9
+11,Software failure resulting in data loss,3,3,9
+12,Human error resulting in data loss,4,3,12
+13,Human error resulting in information disclosure,4,2.5,10
+14,Weak wifi security exploited by nearby attacker,3,1,3
+15,Weak wifi network security exploited by visitor of the organization,3,1,3
+16,"Weak personal device security resulting in limited data loss, limited data disclosure, limited business disruption",3,3.5,10.5
+17,Hardware failure resulting in limited business disruption,3,2,6
+18,Unpaid subscriptions resulting in limited business disruption,3,1,3
+19,Unpaid subscriptions resulting in loss of domain name,5,1,5
+20,Organization Website hack resulting in loss of content,2,3,6
+21,Lack of backups for website content making it impossible to recover after a hacking incident or after service/software failure,3,3,9
+22,Insecure communication channels putting the staff and partners at risk,5,3,15
+23,Crossing hostile borders and checkpoints with incriminating information putting staff and partners at risk,5,4,20
+24,Accidental or intentional Information disclosure by staff putting staff and partners at high risk,5,2,10
+25,Accidental or intentional Information disclosure by staff putting staff and partners at low risk,4,2,8
+26,Information disclosure by partners of the organization putting the staff and other partners at risk,5,1,5
+27,"Health issues preventing a staff member from fulfilling their obligations resulting in limited data loss, and limited business disruption",4,1,4
+28,Hostile employment termination resulting in business disruption and data loss,3,3,9
+29,Hostile employment termination resulting in harmful data disclosure,5,1,5
+30,Lack of electricity and connectivity resulting in limited business disruptions,1,4,4

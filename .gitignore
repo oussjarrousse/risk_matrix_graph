@@ -1,5 +1,11 @@
+# The Python virtual environmeent
+venv
+
+# Python cache
 __pycache__
 
+# iPython stuff
 .ipynb_checkpoints
 
-venv
+# PyCharm Projects
+.idea
