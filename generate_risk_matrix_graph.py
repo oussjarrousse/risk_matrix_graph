@@ -39,7 +39,7 @@ def gradient_image(ax, extent, direction=0.3, cmap=color_map_green_yellow_red, c
     a, b = cmap_range
     X = a + (b - a) / X.max() * X
     im = ax.imshow(X, extent=extent, interpolation=interpolation,
-                   vmin=0, vmax=0.9, cmap=cmap, **kwargs)
+                   vmin=0, vmax=1.0, cmap=cmap, **kwargs)
     return im
 
 def scatter_and_annotate_risk_data_points():
@@ -79,7 +79,7 @@ def main(csv_filename, graph_filename):
     fig, ax = plt.subplots()
     
     im = gradient_image(ax, direction=0.5, extent=(min_impact, xmax, min_likelihood, ymax),
-                        cmap_range=(0, 1), interpolation='bicubic')
+                        cmap_range=(0.00, 1.16), interpolation='bicubic')
 
     ax.set(xlim=(min_impact, xmax),ylim=(min_likelihood, ymax), autoscale_on=False)
     ax.set_aspect('equal')
